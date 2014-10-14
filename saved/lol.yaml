@@ -1,0 +1,8 @@
+--- !ruby/object:Game
+controller: !ruby/object:Hangman
+  old_games:
+  - saved/poop.yaml
+  - saved/yes.yaml
+num_guesses: 10
+user_guesses: []
+word: barnacled

@@ -1,0 +1,9 @@
+--- !ruby/object:Game
+controller: !ruby/object:Hangman
+  old_games:
+  - saved/yes.yaml
+num_guesses: 8
+user_guesses:
+- a
+- c
+word: bacchanalian
