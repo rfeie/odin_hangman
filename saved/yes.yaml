@@ -1,6 +1,0 @@
---- !ruby/object:Game
-controller: !ruby/object:Hangman
-  old_games: 
-num_guesses: 10
-user_guesses: []
-word: howdah
