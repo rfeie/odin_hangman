@@ -4,7 +4,6 @@ require 'yaml'
 #TODO : ability to save game, Ability to play again
 # DIR NEW?
 class Hangman
-	attr_reader :old_games
 
 	def initialize
 		@old_games = get_games
@@ -65,7 +64,6 @@ class Hangman
 end
 
 class Game
-	attr_reader :guesses
 
 # initialize, load a word *done
 	def initialize(hangman)
@@ -81,7 +79,6 @@ class Game
 			@word = @word_file.sample.gsub(/s+/, '')
 		end
 		puts "Game initialized!"
-		puts (@word)
 		play
 	end
 # get input -  guess letter (dcase), or save game
